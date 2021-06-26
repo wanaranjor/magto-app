@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Sidebar from '$lib/shared/ui/Sidebar.svelte';
+	import Mainpanel from '../lib/panel/ui/MainPanel.svelte';
+</script>
+
+<div class="flex flex-row">
+	<Sidebar />
+	<Mainpanel />
+</div>
